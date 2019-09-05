@@ -42,3 +42,6 @@ class VarDistributions():
                                      for x in self.data.columns.values
                                      if x not in self.var_list])
         print(f'List of variables excluded:{cols_not_plotted}')
+
+        # TODO test code above
+        # TODO add functions for histogram, box plot
